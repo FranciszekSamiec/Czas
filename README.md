@@ -3,7 +3,7 @@ Interpreter wykonujący program w języku Czas
 
 Czas to język programowania abstrakcyjnej maszyny Czas.
 
-Składnia języka
+Składnia języka  
 Składnię języka Czas opisuje gramatyka, której symbolami końcowymi są
 
 - identyfikator, zapisany jak w języku C,
@@ -49,14 +49,14 @@ Pamięć maszyny jest nieograniczona. Adresami i wartościami jej komórek mogą
 
 Maszyna ma też stos powrotu, który przechowuje informacje o miejscach w kodzie. Udostępnia on operacje włożenia na stos nowej informacji oraz zdjęcia ze stosu ostatniej położonej informacji, która nie została jeszcze zdjęta.
 
-Wykonanie programu
+Wykonanie programu  
 Pusty program nie ma żadnego efektu.
 
 Wykonanie programu niepustego zaczyna się od pierwszej instrukcji. Kończy się albo po przejściu za ostatnią instrukcję albo po wykonaniu instrukcji kończącej program.
 
 Po instrukcji aktualnej wykonywana jest albo instrukcja wskazana przez instrukcję aktualną albo instrukcja następna po niej w kodzie.
 
-Instrukcje maszyny
+Instrukcje maszyny  
 Maszyna Czas ma sześć instrukcji.
 
 - Instrukcja odejmowania adres1 adres2 zapisuje w komórce o adresie *adres1 wynik odejmowania **adres2 od **adres1.
